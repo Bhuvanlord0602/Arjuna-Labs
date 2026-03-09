@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="t d">
+  <title id="t">Laser cutting project</title>
+  <desc id="d">Placeholder image for laser cut projects</desc>
+  <rect width="900" height="560" fill="#6d7178"/>
+  <rect x="80" y="70" width="740" height="420" rx="20" fill="#f3f3f1"/>
+  <path d="M140 210h620" stroke="#2f3136" stroke-width="16"/>
+  <path d="M180 280h540" stroke="#2f3136" stroke-width="10"/>
+  <text x="130" y="450" fill="#2f3136" font-family="Manrope, Arial, sans-serif" font-size="42" font-weight="700">Laser Cut Assembly</text>
+</svg>

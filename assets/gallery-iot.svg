@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="t d">
+  <title id="t">IoT electronics project</title>
+  <desc id="d">Placeholder image for electronics and IoT projects</desc>
+  <rect width="900" height="560" fill="#2f3136"/>
+  <rect x="110" y="90" width="680" height="380" rx="20" fill="#d8d9d5"/>
+  <circle cx="270" cy="220" r="45" fill="#4f535a"/>
+  <circle cx="360" cy="220" r="45" fill="#6d7178"/>
+  <rect x="500" y="180" width="220" height="180" rx="16" fill="#2f3136"/>
+  <text x="140" y="450" fill="#2f3136" font-family="Manrope, Arial, sans-serif" font-size="42" font-weight="700">IoT Electronics Build</text>
+</svg>

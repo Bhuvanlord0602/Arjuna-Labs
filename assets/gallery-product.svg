@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="t d">
+  <title id="t">Product enclosure prototype</title>
+  <desc id="d">Placeholder image for product design prototypes</desc>
+  <rect width="900" height="560" fill="#2f3136"/>
+  <rect x="120" y="90" width="660" height="380" rx="20" fill="#f3f3f1"/>
+  <rect x="250" y="170" width="360" height="220" rx="34" fill="#6d7178"/>
+  <rect x="315" y="230" width="230" height="90" rx="20" fill="#d8d9d5"/>
+  <text x="140" y="450" fill="#2f3136" font-family="Manrope, Arial, sans-serif" font-size="42" font-weight="700">Product Prototype</text>
+</svg>

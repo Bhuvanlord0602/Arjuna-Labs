@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="t d">
+  <title id="t">Student project prototype</title>
+  <desc id="d">Placeholder image for student projects</desc>
+  <rect width="900" height="560" fill="#6d7178"/>
+  <rect x="90" y="80" width="720" height="400" rx="20" fill="#f3f3f1"/>
+  <path d="M140 350l130-140 130 95 120-120 200 165" stroke="#2f3136" stroke-width="16" fill="none"/>
+  <text x="140" y="450" fill="#2f3136" font-family="Manrope, Arial, sans-serif" font-size="42" font-weight="700">Student IoT Project</text>
+</svg>

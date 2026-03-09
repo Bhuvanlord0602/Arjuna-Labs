@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="t d">
+  <title id="t">Robotics prototype</title>
+  <desc id="d">Placeholder image for robotics projects</desc>
+  <rect width="900" height="560" fill="#2f3136"/>
+  <rect x="110" y="90" width="680" height="380" rx="22" fill="#f3f3f1"/>
+  <circle cx="300" cy="280" r="78" fill="#6d7178"/>
+  <rect x="450" y="200" width="250" height="160" rx="14" fill="#3c4047"/>
+  <text x="140" y="470" fill="#2f3136" font-family="Manrope, Arial, sans-serif" font-size="42" font-weight="700">Robotics Prototype</text>
+</svg>
