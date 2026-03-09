@@ -5,19 +5,6 @@ window.SITE_CONFIG = {
   email: "info@arjunlabs.com",
   address: "Bangalore, Karnataka",
   hours: "Monday-Saturday, 9:00 AM - 8:00 PM",
-  contactApiUrl: "http://localhost:3000/api/contact",
-  firebase: {
-    enabled: false,
-    config: {
-      apiKey: "",
-      authDomain: "",
-      projectId: "",
-      storageBucket: "",
-      messagingSenderId: "",
-      appId: ""
-    },
-    collectionName: "contact_inquiries"
-  },
   whatsappDefaultMessage: "Hi Arjuna Innovation Labs, I would like to know more about your services.",
   whatsappNumberIntl: "919742377633"
 };
