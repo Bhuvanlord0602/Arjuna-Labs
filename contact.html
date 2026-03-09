@@ -42,18 +42,18 @@
     </section>
 
     <section class="section">
-      <div class="container contact-grid">
+      <div class="container contact-grid contact-grid-single">
         <article class="contact-card reveal">
           <h2>Get in Touch</h2>
           <ul class="info-list">
-            <li><strong>Phone:</strong> <a data-phone-link href="#"><span data-site-phone>+91 9742377633</span></a></li>
             <li><strong>Email:</strong> <a data-email-link href="#"><span data-site-email>info@arjunlabs.com</span></a></li>
+            <li><strong>WhatsApp:</strong> <a data-wa-link target="_blank" rel="noopener noreferrer" href="#">Chat with us on WhatsApp</a></li>
             <li><strong>Address:</strong> Bangalore, Karnataka (exact address to be added)</li>
             <li><strong>Hours:</strong> Monday-Saturday, 9:00 AM - 8:00 PM</li>
           </ul>
           <div class="stacked-actions">
             <a class="btn btn-primary full" data-wa-link target="_blank" rel="noopener noreferrer" href="#">Contact Us on WhatsApp</a>
-            <a class="btn btn-outline full" data-phone-link href="#">Call Now</a>
+            <a class="btn btn-outline full" data-email-link href="#">Email Us</a>
           </div>
           <div class="social-list" aria-label="Social media links">
             <a href="#" aria-label="Instagram">Instagram</a>
@@ -61,37 +61,6 @@
             <a href="#" aria-label="Twitter">Twitter</a>
             <a href="#" aria-label="YouTube">YouTube</a>
           </div>
-        </article>
-
-        <article class="contact-card reveal">
-          <h2>Send an Inquiry</h2>
-          <form id="contactForm" novalidate>
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" autocomplete="name" required />
-
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email" required />
-
-            <label for="phone">Phone</label>
-            <input id="phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9]{10}" required />
-
-            <label for="service">Service Interest</label>
-            <select id="service" name="service" required>
-              <option value="">Select a service</option>
-              <option>3D Printing</option>
-              <option>Laser Cutting</option>
-              <option>Electronics Lab</option>
-              <option>Membership</option>
-              <option>General Inquiry</option>
-            </select>
-
-            <label for="message">Project Description</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button class="btn btn-primary full" type="submit">Submit Inquiry</button>
-            <p id="formStatus" class="form-status" aria-live="polite"></p>
-          </form>
-          <p class="micro-note">Backend can be connected later via API endpoint in <code>contact.js</code>.</p>
         </article>
       </div>
     </section>
@@ -128,6 +97,5 @@
   <script src="site-config.js"></script>
   <script src="common.js"></script>
   <script src="main.js"></script>
-  <script src="contact.js"></script>
 </body>
 </html>
