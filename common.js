@@ -1,5 +1,6 @@
 (function () {
   const config = window.SITE_CONFIG || {};
+  const emailAddress = config.email || "info@arjunlabscom.com";
 
   const phoneElements = document.querySelectorAll("[data-site-phone]");
   const emailElements = document.querySelectorAll("[data-site-email]");
@@ -12,7 +13,7 @@
   });
 
   emailElements.forEach((el) => {
-    el.textContent = config.email || "info@arjunlabs.com";
+    el.textContent = emailAddress;
   });
 
   phoneLinks.forEach((el) => {
@@ -20,7 +21,12 @@
   });
 
   emailLinks.forEach((el) => {
-    el.setAttribute("href", `mailto:${config.email || "info@arjunlabs.com"}`);
+    el.setAttribute("href", `mailto:${emailAddress}`);
+    el.addEventListener("click", () => {
+      if (typeof window.gtag === "function") {
+        window.gtag("event", "gmail_click", { contact_method: "email" });
+      }
+    });
   });
 
   waLinks.forEach((el) => {
